@@ -1,0 +1,754 @@
+{
+  "description": "Unreal Engine class methods for code completion",
+  "version": "1.0",
+  "class_methods": {
+    "FMath": [
+      {
+        "MethodName": "Clamp",
+        "MethodSignature": "Clamp(const float Value, const float Min, const float Max)"
+      },
+      {
+        "MethodName": "Min",
+        "MethodSignature": "Min(const T A, const T B)"
+      },
+      {
+        "MethodName": "Max",
+        "MethodSignature": "Max(const T A, const T B)"
+      },
+      {
+        "MethodName": "Min3",
+        "MethodSignature": "Min3(const T A, const T B, const T C)"
+      },
+      {
+        "MethodName": "Max3",
+        "MethodSignature": "Max3(const T A, const T B, const T C)"
+      },
+      {
+        "MethodName": "Lerp",
+        "MethodSignature": "Lerp(const T A, const T B, const U Alpha)"
+      },
+      {
+        "MethodName": "Sin",
+        "MethodSignature": "Sin(float Value)"
+      },
+      {
+        "MethodName": "Cos",
+        "MethodSignature": "Cos(float Value)"
+      },
+      {
+        "MethodName": "Tan",
+        "MethodSignature": "Tan(float Value)"
+      },
+      {
+        "MethodName": "Floor",
+        "MethodSignature": "Floor(float Value)"
+      },
+      {
+        "MethodName": "Ceil",
+        "MethodSignature": "Ceil(float Value)"
+      },
+      {
+        "MethodName": "Round",
+        "MethodSignature": "Round(float Value)"
+      },
+      {
+        "MethodName": "Abs",
+        "MethodSignature": "Abs(const T A)"
+      },
+      {
+        "MethodName": "Sqrt",
+        "MethodSignature": "Sqrt(float Value)"
+      },
+      {
+        "MethodName": "Pow",
+        "MethodSignature": "Pow(float Base, float Exp)"
+      },
+      {
+        "MethodName": "Square",
+        "MethodSignature": "Square(const T A)"
+      },
+      {
+        "MethodName": "RandRange",
+        "MethodSignature": "RandRange(int32 Min, int32 Max)"
+      },
+      {
+        "MethodName": "FRand",
+        "MethodSignature": "FRand()"
+      },
+      {
+        "MethodName": "RandBool",
+        "MethodSignature": "RandBool()"
+      },
+      {
+        "MethodName": "Sign",
+        "MethodSignature": "Sign(const T A)"
+      },
+      {
+        "MethodName": "Wrap",
+        "MethodSignature": "Wrap(const T Value, const T Min, const T Max)"
+      }
+    ],
+    "FString": [
+      {
+        "MethodName": "Append",
+        "MethodSignature": "Append(const TCHAR* Text)"
+      },
+      {
+        "MethodName": "Contains",
+        "MethodSignature": "Contains(const TCHAR* SubStr, ESearchCase::Type SearchCase = ESearchCase::IgnoreCase, ESearchDir::Type SearchDir = ESearchDir::FromStart)"
+      },
+      {
+        "MethodName": "StartsWith",
+        "MethodSignature": "StartsWith(const TCHAR* InPrefix, ESearchCase::Type SearchCase = ESearchCase::IgnoreCase)"
+      },
+      {
+        "MethodName": "EndsWith",
+        "MethodSignature": "EndsWith(const TCHAR* InSuffix, ESearchCase::Type SearchCase = ESearchCase::IgnoreCase)"
+      },
+      {
+        "MethodName": "Left",
+        "MethodSignature": "Left(int32 Count)"
+      },
+      {
+        "MethodName": "Right",
+        "MethodSignature": "Right(int32 Count)"
+      },
+      {
+        "MethodName": "Mid",
+        "MethodSignature": "Mid(int32 Start, int32 Count = MAX_int32)"
+      },
+      {
+        "MethodName": "Find",
+        "MethodSignature": "Find(const TCHAR* SubStr, ESearchCase::Type SearchCase = ESearchCase::IgnoreCase, ESearchDir::Type SearchDir = ESearchDir::FromStart, int32 StartPosition = INDEX_NONE)"
+      },
+      {
+        "MethodName": "Replace",
+        "MethodSignature": "Replace(const TCHAR* From, const TCHAR* To, ESearchCase::Type SearchCase = ESearchCase::IgnoreCase)"
+      },
+      {
+        "MethodName": "ToUpper",
+        "MethodSignature": "ToUpper()"
+      },
+      {
+        "MethodName": "ToLower",
+        "MethodSignature": "ToLower()"
+      },
+      {
+        "MethodName": "TrimStartAndEnd",
+        "MethodSignature": "TrimStartAndEnd()"
+      },
+      {
+        "MethodName": "Len",
+        "MethodSignature": "Len()"
+      },
+      {
+        "MethodName": "IsEmpty",
+        "MethodSignature": "IsEmpty()"
+      },
+      {
+        "MethodName": "Printf",
+        "MethodSignature": "Printf(const TCHAR* Fmt, ...)"
+      }
+    ],
+    "FName": [
+      {
+        "MethodName": "ToString",
+        "MethodSignature": "ToString()"
+      },
+      {
+        "MethodName": "IsNone",
+        "MethodSignature": "IsNone()"
+      },
+      {
+        "MethodName": "IsValid",
+        "MethodSignature": "IsValid()"
+      },
+      {
+        "MethodName": "GetComparisonIndex",
+        "MethodSignature": "GetComparisonIndex()"
+      },
+      {
+        "MethodName": "GetDisplayIndex",
+        "MethodSignature": "GetDisplayIndex()"
+      }
+    ],
+    "FText": [
+      {
+        "MethodName": "ToString",
+        "MethodSignature": "ToString()"
+      },
+      {
+        "MethodName": "IsEmpty",
+        "MethodSignature": "IsEmpty()"
+      },
+      {
+        "MethodName": "FromString",
+        "MethodSignature": "FromString(const FString& String)"
+      },
+      {
+        "MethodName": "Format",
+        "MethodSignature": "Format(const FText& Fmt, const FFormatArgumentData& InArgument)"
+      },
+      {
+        "MethodName": "AsNumber",
+        "MethodSignature": "AsNumber(float Val, const FNumberFormattingOptions* const Options = nullptr)"
+      }
+    ],
+    "FVector": [
+      {
+        "MethodName": "Normalize",
+        "MethodSignature": "Normalize(float Tolerance = SMALL_NUMBER)"
+      },
+      {
+        "MethodName": "Size",
+        "MethodSignature": "Size()"
+      },
+      {
+        "MethodName": "SizeSquared",
+        "MethodSignature": "SizeSquared()"
+      },
+      {
+        "MethodName": "Size2D",
+        "MethodSignature": "Size2D()"
+      },
+      {
+        "MethodName": "Distance",
+        "MethodSignature": "Distance(const FVector& V1, const FVector& V2)"
+      },
+      {
+        "MethodName": "DotProduct",
+        "MethodSignature": "DotProduct(const FVector& A, const FVector& B)"
+      },
+      {
+        "MethodName": "CrossProduct",
+        "MethodSignature": "CrossProduct(const FVector& A, const FVector& B)"
+      },
+      {
+        "MethodName": "GetSafeNormal",
+        "MethodSignature": "GetSafeNormal(float Tolerance = SMALL_NUMBER)"
+      },
+      {
+        "MethodName": "IsZero",
+        "MethodSignature": "IsZero()"
+      },
+      {
+        "MethodName": "IsNearlyZero",
+        "MethodSignature": "IsNearlyZero(float Tolerance = KINDA_SMALL_NUMBER)"
+      },
+      {
+        "MethodName": "ToString",
+        "MethodSignature": "ToString()"
+      }
+    ],
+    "FVector2D": [
+      {
+        "MethodName": "Size",
+        "MethodSignature": "Size()"
+      },
+      {
+        "MethodName": "SizeSquared",
+        "MethodSignature": "SizeSquared()"
+      },
+      {
+        "MethodName": "Normalize",
+        "MethodSignature": "Normalize(float Tolerance = SMALL_NUMBER)"
+      },
+      {
+        "MethodName": "GetSafeNormal",
+        "MethodSignature": "GetSafeNormal(float Tolerance = SMALL_NUMBER)"
+      },
+      {
+        "MethodName": "IsZero",
+        "MethodSignature": "IsZero()"
+      },
+      {
+        "MethodName": "IsNearlyZero",
+        "MethodSignature": "IsNearlyZero(float Tolerance = KINDA_SMALL_NUMBER)"
+      },
+      {
+        "MethodName": "ToString",
+        "MethodSignature": "ToString()"
+      }
+    ],
+    "FRotator": [
+      {
+        "MethodName": "Normalize",
+        "MethodSignature": "Normalize()"
+      },
+      {
+        "MethodName": "GetNormalized",
+        "MethodSignature": "GetNormalized()"
+      },
+      {
+        "MethodName": "ToString",
+        "MethodSignature": "ToString()"
+      },
+      {
+        "MethodName": "IsZero",
+        "MethodSignature": "IsZero()"
+      },
+      {
+        "MethodName": "IsNearlyZero",
+        "MethodSignature": "IsNearlyZero(float Tolerance = KINDA_SMALL_NUMBER)"
+      },
+      {
+        "MethodName": "Vector",
+        "MethodSignature": "Vector()"
+      },
+      {
+        "MethodName": "Quaternion",
+        "MethodSignature": "Quaternion()"
+      }
+    ],
+    "FTransform": [
+      {
+        "MethodName": "GetLocation",
+        "MethodSignature": "GetLocation()"
+      },
+      {
+        "MethodName": "GetRotation",
+        "MethodSignature": "GetRotation()"
+      },
+      {
+        "MethodName": "GetScale3D",
+        "MethodSignature": "GetScale3D()"
+      },
+      {
+        "MethodName": "SetLocation",
+        "MethodSignature": "SetLocation(const FVector& InLocation)"
+      },
+      {
+        "MethodName": "SetRotation",
+        "MethodSignature": "SetRotation(const FQuat& InRotation)"
+      },
+      {
+        "MethodName": "SetScale3D",
+        "MethodSignature": "SetScale3D(const FVector& InScale3D)"
+      },
+      {
+        "MethodName": "TransformPosition",
+        "MethodSignature": "TransformPosition(const FVector& V)"
+      },
+      {
+        "MethodName": "TransformVector",
+        "MethodSignature": "TransformVector(const FVector& V)"
+      },
+      {
+        "MethodName": "ToString",
+        "MethodSignature": "ToString()"
+      }
+    ],
+    "FColor": [
+      {
+        "MethodName": "ToString",
+        "MethodSignature": "ToString()"
+      },
+      {
+        "MethodName": "ToHex",
+        "MethodSignature": "ToHex()"
+      },
+      {
+        "MethodName": "FromHex",
+        "MethodSignature": "FromHex(const FString& HexString)"
+      },
+      {
+        "MethodName": "ReinterpretAsLinear",
+        "MethodSignature": "ReinterpretAsLinear()"
+      }
+    ],
+    "FLinearColor": [
+      {
+        "MethodName": "ToString",
+        "MethodSignature": "ToString()"
+      },
+      {
+        "MethodName": "ToFColor",
+        "MethodSignature": "ToFColor(bool bSRGB)"
+      },
+      {
+        "MethodName": "LinearRGBToHSV",
+        "MethodSignature": "LinearRGBToHSV()"
+      },
+      {
+        "MethodName": "HSVToLinearRGB",
+        "MethodSignature": "HSVToLinearRGB()"
+      }
+    ],
+    "TArray": [
+      {
+        "MethodName": "Add",
+        "MethodSignature": "Add(const ElementType& Item)"
+      },
+      {
+        "MethodName": "AddUnique",
+        "MethodSignature": "AddUnique(const ElementType& Item)"
+      },
+      {
+        "MethodName": "Remove",
+        "MethodSignature": "Remove(const ElementType& Item)"
+      },
+      {
+        "MethodName": "RemoveAt",
+        "MethodSignature": "RemoveAt(int32 Index, int32 Count = 1, bool bAllowShrinking = true)"
+      },
+      {
+        "MethodName": "Find",
+        "MethodSignature": "Find(const ElementType& Item)"
+      },
+      {
+        "MethodName": "Contains",
+        "MethodSignature": "Contains(const ElementType& Item)"
+      },
+      {
+        "MethodName": "Num",
+        "MethodSignature": "Num()"
+      },
+      {
+        "MethodName": "IsEmpty",
+        "MethodSignature": "IsEmpty()"
+      },
+      {
+        "MethodName": "Empty",
+        "MethodSignature": "Empty(int32 Slack = 0)"
+      },
+      {
+        "MethodName": "Reset",
+        "MethodSignature": "Reset(int32 NewSize = 0)"
+      },
+      {
+        "MethodName": "Sort",
+        "MethodSignature": "Sort()"
+      },
+      {
+        "MethodName": "IsValidIndex",
+        "MethodSignature": "IsValidIndex(int32 Index)"
+      }
+    ],
+    "TMap": [
+      {
+        "MethodName": "Add",
+        "MethodSignature": "Add(const KeyType& InKey, const ValueType& InValue)"
+      },
+      {
+        "MethodName": "Remove",
+        "MethodSignature": "Remove(const KeyType& InKey)"
+      },
+      {
+        "MethodName": "Find",
+        "MethodSignature": "Find(const KeyType& Key)"
+      },
+      {
+        "MethodName": "Contains",
+        "MethodSignature": "Contains(const KeyType& Key)"
+      },
+      {
+        "MethodName": "Num",
+        "MethodSignature": "Num()"
+      },
+      {
+        "MethodName": "IsEmpty",
+        "MethodSignature": "IsEmpty()"
+      },
+      {
+        "MethodName": "Empty",
+        "MethodSignature": "Empty(int32 ExpectedNumElements = 0)"
+      },
+      {
+        "MethodName": "Reset",
+        "MethodSignature": "Reset()"
+      }
+    ],
+    "TSet": [
+      {
+        "MethodName": "Add",
+        "MethodSignature": "Add(const ElementType& InElement)"
+      },
+      {
+        "MethodName": "Remove",
+        "MethodSignature": "Remove(const ElementType& Element)"
+      },
+      {
+        "MethodName": "Find",
+        "MethodSignature": "Find(const ElementType& Element)"
+      },
+      {
+        "MethodName": "Contains",
+        "MethodSignature": "Contains(const ElementType& Element)"
+      },
+      {
+        "MethodName": "Num",
+        "MethodSignature": "Num()"
+      },
+      {
+        "MethodName": "IsEmpty",
+        "MethodSignature": "IsEmpty()"
+      },
+      {
+        "MethodName": "Empty",
+        "MethodSignature": "Empty(int32 ExpectedNumElements = 0)"
+      },
+      {
+        "MethodName": "Reset",
+        "MethodSignature": "Reset()"
+      }
+    ],
+    "AActor": [
+      {
+        "MethodName": "BeginPlay",
+        "MethodSignature": "BeginPlay()"
+      },
+      {
+        "MethodName": "EndPlay",
+        "MethodSignature": "EndPlay(const EEndPlayReason::Type EndPlayReason)"
+      },
+      {
+        "MethodName": "Tick",
+        "MethodSignature": "Tick(float DeltaTime)"
+      },
+      {
+        "MethodName": "GetWorld",
+        "MethodSignature": "GetWorld()"
+      },
+      {
+        "MethodName": "GetActorLocation",
+        "MethodSignature": "GetActorLocation()"
+      },
+      {
+        "MethodName": "SetActorLocation",
+        "MethodSignature": "SetActorLocation(const FVector& NewLocation, bool bSweep = false, FHitResult* OutSweepHitResult = nullptr, ETeleportType Teleport = ETeleportType::None)"
+      },
+      {
+        "MethodName": "GetActorRotation",
+        "MethodSignature": "GetActorRotation()"
+      },
+      {
+        "MethodName": "SetActorRotation",
+        "MethodSignature": "SetActorRotation(const FRotator& NewRotation, ETeleportType Teleport = ETeleportType::None)"
+      },
+      {
+        "MethodName": "GetActorTransform",
+        "MethodSignature": "GetActorTransform()"
+      },
+      {
+        "MethodName": "SetActorTransform",
+        "MethodSignature": "SetActorTransform(const FTransform& NewTransform, bool bSweep = false, FHitResult* OutSweepHitResult = nullptr, ETeleportType Teleport = ETeleportType::None)"
+      },
+      {
+        "MethodName": "Destroy",
+        "MethodSignature": "Destroy(bool bNetForce = false, bool bShouldModifyLevel = true)"
+      }
+    ],
+    "APawn": [
+      {
+        "MethodName": "SetupPlayerInputComponent",
+        "MethodSignature": "SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)"
+      },
+      {
+        "MethodName": "GetController",
+        "MethodSignature": "GetController()"
+      },
+      {
+        "MethodName": "GetPawnViewLocation",
+        "MethodSignature": "GetPawnViewLocation()"
+      },
+      {
+        "MethodName": "PossessedBy",
+        "MethodSignature": "PossessedBy(AController* NewController)"
+      },
+      {
+        "MethodName": "UnPossessed",
+        "MethodSignature": "UnPossessed()"
+      }
+    ],
+    "ACharacter": [
+      {
+        "MethodName": "Jump",
+        "MethodSignature": "Jump()"
+      },
+      {
+        "MethodName": "StopJumping",
+        "MethodSignature": "StopJumping()"
+      },
+      {
+        "MethodName": "GetCharacterMovement",
+        "MethodSignature": "GetCharacterMovement()"
+      },
+      {
+        "MethodName": "GetCapsuleComponent",
+        "MethodSignature": "GetCapsuleComponent()"
+      },
+      {
+        "MethodName": "GetMesh",
+        "MethodSignature": "GetMesh()"
+      }
+    ],
+    "UObject": [
+      {
+        "MethodName": "GetClass",
+        "MethodSignature": "GetClass()"
+      },
+      {
+        "MethodName": "GetName",
+        "MethodSignature": "GetName()"
+      },
+      {
+        "MethodName": "IsValidLowLevel",
+        "MethodSignature": "IsValidLowLevel()"
+      },
+      {
+        "MethodName": "GetWorld",
+        "MethodSignature": "GetWorld()"
+      },
+      {
+        "MethodName": "GetOuter",
+        "MethodSignature": "GetOuter()"
+      },
+      {
+        "MethodName": "IsA",
+        "MethodSignature": "IsA(const UClass* SomeBase)"
+      }
+    ],
+    "UActorComponent": [
+      {
+        "MethodName": "BeginPlay",
+        "MethodSignature": "BeginPlay()"
+      },
+      {
+        "MethodName": "EndPlay",
+        "MethodSignature": "EndPlay(const EEndPlayReason::Type EndPlayReason)"
+      },
+      {
+        "MethodName": "GetOwner",
+        "MethodSignature": "GetOwner()"
+      },
+      {
+        "MethodName": "GetWorld",
+        "MethodSignature": "GetWorld()"
+      },
+      {
+        "MethodName": "SetActive",
+        "MethodSignature": "SetActive(bool bNewActive, bool bReset = false)"
+      },
+      {
+        "MethodName": "IsActive",
+        "MethodSignature": "IsActive()"
+      }
+    ],
+    "USceneComponent": [
+      {
+        "MethodName": "GetComponentLocation",
+        "MethodSignature": "GetComponentLocation()"
+      },
+      {
+        "MethodName": "SetWorldLocation",
+        "MethodSignature": "SetWorldLocation(const FVector& NewLocation, bool bSweep = false, FHitResult* OutSweepHitResult = nullptr, ETeleportType Teleport = ETeleportType::None)"
+      },
+      {
+        "MethodName": "GetComponentRotation",
+        "MethodSignature": "GetComponentRotation()"
+      },
+      {
+        "MethodName": "SetWorldRotation",
+        "MethodSignature": "SetWorldRotation(const FRotator& NewRotation, bool bSweep = false, FHitResult* OutSweepHitResult = nullptr, ETeleportType Teleport = ETeleportType::None)"
+      },
+      {
+        "MethodName": "GetComponentTransform",
+        "MethodSignature": "GetComponentTransform()"
+      },
+      {
+        "MethodName": "AttachToComponent",
+        "MethodSignature": "AttachToComponent(USceneComponent* Parent, const FAttachmentTransformRules& AttachmentRules, FName SocketName = NAME_None)"
+      }
+    ],
+    "UGameplayStatics": [
+      {
+        "MethodName": "GetPlayerController",
+        "MethodSignature": "GetPlayerController(const UObject* WorldContext, int32 PlayerIndex = 0)"
+      },
+      {
+        "MethodName": "GetPlayerPawn",
+        "MethodSignature": "GetPlayerPawn(const UObject* WorldContext, int32 PlayerIndex = 0)"
+      },
+      {
+        "MethodName": "SpawnActor",
+        "MethodSignature": "SpawnActor(UClass* Class, const FVector& Location, const FRotator& Rotation, const FActorSpawnParameters& SpawnParameters = FActorSpawnParameters())"
+      },
+      {
+        "MethodName": "GetWorld",
+        "MethodSignature": "GetWorld(const UObject* WorldContext)"
+      },
+      {
+        "MethodName": "GetGameMode",
+        "MethodSignature": "GetGameMode(const UObject* WorldContext)"
+      },
+      {
+        "MethodName": "GetGameState",
+        "MethodSignature": "GetGameState(const UObject* WorldContext)"
+      },
+      {
+        "MethodName": "PlaySound2D",
+        "MethodSignature": "PlaySound2D(const UObject* WorldContext, USoundBase* Sound, float VolumeMultiplier = 1.0f, float PitchMultiplier = 1.0f, float StartTime = 0.0f)"
+      },
+      {
+        "MethodName": "PlaySoundAtLocation",
+        "MethodSignature": "PlaySoundAtLocation(const UObject* WorldContext, USoundBase* Sound, const FVector& Location, const FRotator& Rotation = FRotator::ZeroRotator, float VolumeMultiplier = 1.0f, float PitchMultiplier = 1.0f, float StartTime = 0.0f)"
+      }
+    ],
+    "UKismetMathLibrary": [
+      {
+        "MethodName": "Add_VectorVector",
+        "MethodSignature": "Add_VectorVector(const FVector& A, const FVector& B)"
+      },
+      {
+        "MethodName": "Subtract_VectorVector",
+        "MethodSignature": "Subtract_VectorVector(const FVector& A, const FVector& B)"
+      },
+      {
+        "MethodName": "Multiply_VectorFloat",
+        "MethodSignature": "Multiply_VectorFloat(const FVector& A, float B)"
+      },
+      {
+        "MethodName": "FindLookAtRotation",
+        "MethodSignature": "FindLookAtRotation(const FVector& Start, const FVector& Target)"
+      },
+      {
+        "MethodName": "VInterpTo",
+        "MethodSignature": "VInterpTo(const FVector& Current, const FVector& Target, float DeltaTime, float InterpSpeed)"
+      },
+      {
+        "MethodName": "RInterpTo",
+        "MethodSignature": "RInterpTo(const FRotator& Current, const FRotator& Target, float DeltaTime, float InterpSpeed)"
+      }
+    ],
+    "FPaths": [
+      {
+        "MethodName": "ProjectDir",
+        "MethodSignature": "ProjectDir()"
+      },
+      {
+        "MethodName": "ProjectContentDir",
+        "MethodSignature": "ProjectContentDir()"
+      },
+      {
+        "MethodName": "Combine",
+        "MethodSignature": "Combine(const TCHAR* InPath1, const TCHAR* InPath2)"
+      },
+      {
+        "MethodName": "GetExtension",
+        "MethodSignature": "GetExtension(const FString& InPath, bool bIncludeDot = false)"
+      },
+      {
+        "MethodName": "GetBaseFilename",
+        "MethodSignature": "GetBaseFilename(const FString& InPath, bool bRemovePath = true)"
+      },
+      {
+        "MethodName": "FileExists",
+        "MethodSignature": "FileExists(const FString& InPath)"
+      },
+      {
+        "MethodName": "DirectoryExists",
+        "MethodSignature": "DirectoryExists(const FString& InPath)"
+      }
+    ]
+  }
+}

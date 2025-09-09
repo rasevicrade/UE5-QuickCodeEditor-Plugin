@@ -1,0 +1,29 @@
+{
+  "description": "Custom user-defined keywords for specialized development workflows",
+  "version": "1.0",
+  "keywords": {
+    "custom_macros": [
+      "CUSTOM_LOG",
+      "SAFE_DELETE",
+      "VALIDATE_PTR"
+    ],
+    "project_specific": [
+      "GameInstance",
+      "PlayerData",
+      "InventorySystem",
+      "QuestManager"
+    ],
+    "common_patterns": [
+      "nullptr_check",
+      "IsValid",
+      "ensure",
+      "checkf"
+    ],
+    "utility_functions": [
+      "GetGameInstance",
+      "GetPlayerController",
+      "SpawnActor",
+      "DestroyComponent"
+    ]
+  }
+}

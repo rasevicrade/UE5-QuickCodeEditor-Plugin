@@ -1,0 +1,67 @@
+{
+  "description": "Standard C++ language keywords for code completion",
+  "version": "1.0",
+  "keywords": {
+    "basic_types": [
+      "int32",
+      "float",
+      "double",
+      "bool",
+      "void",
+      "char",
+      "uint8",
+      "uint16",
+      "uint32",
+      "uint64",
+      "int8",
+      "int16",
+      "int64"
+    ],
+    "class_struct_keywords": [
+      "class",
+      "struct",
+      "namespace",
+      "enum",
+      "typedef",
+      "template",
+      "typename"
+    ],
+    "access_modifiers": [
+      "public",
+      "private",
+      "protected"
+    ],
+    "function_keywords": [
+      "virtual",
+      "override",
+      "const",
+      "static",
+      "inline",
+      "explicit"
+    ],
+    "control_flow": [
+      "if",
+      "else",
+      "for",
+      "while",
+      "do",
+      "switch",
+      "case",
+      "default",
+      "break",
+      "continue",
+      "return"
+    ],
+    "memory_keywords": [
+      "new",
+      "delete",
+      "nullptr"
+    ],
+    "other_common": [
+      "auto",
+      "constexpr",
+      "mutable",
+      "extern"
+    ]
+  }
+}

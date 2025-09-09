@@ -1,0 +1,109 @@
+{
+  "description": "Unreal Engine specific keywords for code completion",
+  "version": "1.0",
+  "keywords": {
+    "class_object_macros": [
+      "UCLASS",
+      "USTRUCT",
+      "UENUM",
+      "UINTERFACE",
+      "GENERATED_BODY",
+      "GENERATED_UCLASS_BODY",
+      "GENERATED_USTRUCT_BODY"
+    ],
+    "property_macros": [
+      "UPROPERTY",
+      "UFUNCTION",
+      "UMETA"
+    ],
+    "property_specifiers": [
+      "BlueprintReadOnly",
+      "BlueprintReadWrite",
+      "EditAnywhere",
+      "EditDefaultsOnly",
+      "EditInstanceOnly",
+      "VisibleAnywhere",
+      "VisibleDefaultsOnly",
+      "VisibleInstanceOnly",
+      "Category",
+      "Meta"
+    ],
+    "function_specifiers": [
+      "BlueprintCallable",
+      "BlueprintImplementableEvent",
+      "BlueprintNativeEvent",
+      "BlueprintPure",
+      "CallInEditor",
+      "Exec"
+    ],
+    "common_unreal_types": [
+      "FString",
+      "FName",
+      "FText",
+      "FVector",
+      "FVector2D",
+      "FRotator",
+      "FTransform",
+      "FColor",
+      "FLinearColor",
+      "TArray",
+      "TMap",
+      "TSet",
+      "TWeakPtr",
+      "TSharedPtr",
+      "TUniquePtr",
+      "TSoftObjectPtr",
+      "TSoftClassPtr"
+    ],
+    "actor_component_classes": [
+      "AActor",
+      "APawn",
+      "ACharacter",
+      "APlayerController",
+      "AGameModeBase",
+      "UObject",
+      "UActorComponent",
+      "USceneComponent",
+      "UStaticMeshComponent",
+      "USkeletalMeshComponent"
+    ],
+    "engine_modules": [
+      "UE",
+      "UE_LOG",
+      "LogTemp",
+      "Warning",
+      "Error",
+      "Log"
+    ],
+    "common_interfaces": [
+      "GetWorld",
+      "BeginPlay",
+      "EndPlay",
+      "Tick",
+      "SetupPlayerInputComponent"
+    ],
+    "static_utility_classes": [
+      "FMath",
+      "UKismetMathLibrary",
+      "UKismetStringLibrary",
+      "UKismetSystemLibrary",
+      "UGameplayStatics",
+      "UBlueprintFunctionLibrary",
+      "FPaths",
+      "FDateTime",
+      "FGuid",
+      "FPlatformFilemanager",
+      "GEngine",
+      "FApp",
+      "UWorld",
+      "UObject",
+      "FOutputDeviceNull",
+      "FMemory",
+      "FGenericPlatformMath",
+      "FPlatformMath",
+      "FString",
+      "FFileHelper",
+      "IFileManager"
+    ]
+  }
+}

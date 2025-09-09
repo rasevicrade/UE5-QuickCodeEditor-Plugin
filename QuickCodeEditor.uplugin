@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.9",
+	"FriendlyName": "Quick Code Editor",
+	"Description": "Adds a code editor to your Blueprint editor with syntax highlighting and AI code completions.",
+	"Category": "Other",
+	"CreatedBy": "TechnicallyArtist",
+	"CreatedByURL": "https://www.patreon.com/TechnicallyArtist",
+	"DocsURL": "https://docs.google.com/document/d/10jek3R9K-YnvTp_k_dgC3IvQ6AffkeuxIYrk4sIfZTg/edit?usp=sharing",
+	"FabURL": "",
+	"SupportURL": "https://discord.gg/4GkpkXXQ",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "QuickCodeEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"MarketplaceURL": ""
+}
